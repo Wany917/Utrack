@@ -1,0 +1,308 @@
+:root{
+    --bs-border-color : #F7CCAC;
+}
+    a{
+        cursor: pointer;
+    }
+    p {
+        margin-bottom: 0em!important;
+    }
+    .pr_usr_request{
+        color: #F7CCAC;
+    }
+    .title_rqst{
+        color: #F7CCAC;
+    }
+    /*====================GREEN BLOCK EDIT USER PROFILE===========================*/
+    
+    .bio {
+        border-bottom: 1px solid #3A3845;
+    }
+    
+    .profile2 {
+        width: 60px;
+        height: 60px;
+        border: 1px solid #94B49F;
+        border-radius: 50px;
+    }
+    /*====================REQUEST BTN===========================*/
+    
+    .btn {
+        background-color: #789395;
+        border-radius: 2rem;
+    }
+    
+    .btn-outline-secondary {
+        color: #3A3845;
+        border-color: #789395;
+    }
+    .btn-outline-secondary:hover {
+        color: #F7CCAC;
+        background-color: #FFF6EA;
+        border-color: #789395;
+    }
+    
+    .btn.btn-outline-secondary:active {
+        color: #94B49F;
+    }
+    /*====================PROFILE BTN===========================*/
+    
+    .btn-outline-dark {
+        color: #3A3845;
+        border-color: #789395;
+        background-color: #789395;
+    }
+    
+    .btn-outline-dark:hover {
+        color: #F7CCAC;
+        background-color: #FFF6EA;
+        border-color: #FFF6EA;
+    }
+    /*====================STATS BTN===========================*/
+    
+    .form-select {
+        color: #789395;
+        border-color: #3A3845;
+        background-color: #3A3845;
+        border-radius: 2rem;
+    }
+    /*====================BLOCK===========================*/
+    
+    .block1 {
+        width: 360px;
+        height: 380px;
+        background-color: #789395;
+        border-radius: 40px;
+    }
+    /*====================SECOND BLOCK (Stats)============================*/
+    
+    .dash-block {
+        width: 200px;
+        height: 185px;
+        background: #789395;
+        border-radius: 30px;
+    }
+    /*====================BACKGROUND BLOCK (RECENTLY POST & UNFINISHED)============================*/
+    
+    .darkB {
+        background: #3A3845;
+        border-radius: 20px;
+    }
+    /*SUBTITLE recently post & unfinished*/
+    
+    .subtitle {
+        color: #F7CCAC !important;
+    }
+    /*====================BACKGROUND BLOCK RECENTLY POST============================*/
+    
+    .recentlyBlock {
+        width: 80px;
+        height: 80px;
+        background: #3A3845;
+        border-radius: 25px;
+    }
+    
+    .recentlyPost {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+    /*====================IMG BACKGROUND BLOCK (Stats : EYE,LIKE,REQUEST,COMMENT)============================*/
+    
+    .darkBlockA {
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: #3A3845;
+    }
+    .darkBlockTr{
+        padding: 1.2rem;
+        border-radius: 20px;
+        background-color: #3A3845;
+    }
+    .darkBlockN{
+        padding: 1.2rem;
+        border-radius: 20px;
+        background-color: #3A3845;
+    }
+    
+    .darkBlockF {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top:1rem;
+        padding-bottom:1rem;
+        border-radius: 20px;
+        background-color: #3A3845;
+    }
+    .darkBlockA:hover {
+        background-color: #4A667C;
+    }
+    .darkBlockTr:hover{
+        background-color: #4A667C;
+    }
+    .darkBlockN:hover{
+        background-color: #4A667C;
+    }
+    
+    .darkBlockF:hover {
+        background-color: #4A667C;
+    }
+    /*====================BACKGROUND GREEN BLOCK (Stats : EYE,LIKE,REQUEST,COMMENT)============================*/
+    
+    .statsBlock {
+        background-color: #789395;
+        border-radius: 35px;
+    }
+    /*==================== MEDIA QUERY TESTS =================*/
+    .pulse1 {
+        width: 100px;
+        height: 100px;
+        border-radius: 25px;
+    }
+
+    /*===========================MODAL CONTENT==============================*/
+    
+    .modal-content {
+        background-color: #94B49F;
+        border-radius: 40px;
+    }
+    .bg-edit{
+        background-color: #3A3845;
+    }
+    
+    .modal-header {
+        border-bottom: none;
+    }
+    
+    .modal-title {
+        background-color: #F7CCAC;
+        border-radius: 20px;
+        padding: 0.5rem;
+    }
+    
+    .modal-header .close {
+        margin: none;
+    }
+    
+    .modal-footer {
+        border-top: none;
+    }
+    /*====================LIST GROUP REQUEST===================================*/
+    .btn-outline-danger{
+        color: #3A3845 !important;
+        border-color: #F7CCAC !important;
+        background-color: #F7CCAC !important;
+    }
+    .btn-outline-danger:hover{
+        background-color: #3A3845 !important;
+        border-color: #F7CCAC !important;
+    }
+    .btn-outline-danger:active{
+        background-color: #C84361 !important;
+        color: #F7CCAC !important;
+    }
+    
+    .btn-outline-light {
+        color: #3A3845;
+        border-color: #F7CCAC;
+        background-color: #F7CCAC;
+    }
+    
+    .btn-outline-light:hover {
+        background-color: #3A3845;
+        border-color: #F7CCAC;
+    }
+    
+    .btn-outline-light:active {
+        background-color: #94B49F;
+        color: #F7CCAC;
+    }
+    
+    .list-group-item {
+        color: #3A3845;
+        background-color: transparent !important;
+        border: none;
+    }
+    
+    h6 {
+        color: #3A3845;
+        border-top: #3A3845;
+    }
+    
+    .border-top {
+        border-top: 1px solid var(--bs-border-color) !important;
+    }
+    
+    .border-bottom {
+        border-bottom: 1px solid var(--bs-border-color) !important;
+    }
+    /*=====================================BADGE COLORS=======================================*/
+    
+    .badge {
+        color: #F7CCAC;
+    }
+    /*=====================================OFFCANVAS COLORS=======================================*/
+    
+    .offcanvas {
+        background-color: #789395;
+    }
+    
+    .offcanvas-title {
+        color: #3A3845;
+    }
+    
+    .text-decoration-underline {
+        color: #3A3845 !important;
+    }
+
+    /*=====================================FAVTRACK=======================================*/
+    .btn-link{
+        color: #F7CCAC;
+        background-color: #3A3845;
+        text-decoration: none !important;
+    }
+    .btn-link:hover{
+        color: #94B49F;
+    }
+
+
+
+    /*=====================================LABEL MODAL=======================================*/
+
+    label{
+        width: 320px;
+        border-radius: 20px;
+        color: #3A3845 !important;
+        background-color: #F7CCAC !important;
+    }
+
+        /*=====================================EDIT TITLE MODAL=======================================*/
+        h5{
+            color: #3A3845;
+        }
+        .pr_modal{
+            
+            border-radius: 15px;
+            background-color: #F7CCAC;
+        }
+
+        .border {
+            border: 1px solid #3A3845 !important;
+        }
+        /*=====================================EDIT INPUT MODAL=======================================*/
+        .edit-form {
+            border-radius: 20px;
+            background-color: #F7CCAC;
+        }
+        .edit-form:focus {
+            background-color: #F7CCAC;
+        }
+        
+        .btn_f_v_edit{
+            background-color: #F7CCAC;
+            color: #3A3845;
+        }
+
+/* errors */
+
+.errors{
+    color: #F7CCAC;
+}

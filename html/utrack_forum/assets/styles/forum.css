@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+:root {
+    --bs-gray-dark: #3A3845;
+    --bs-body-bg: #3A3845;
+    --bs-success-bg: #789395;
+    --bs-btn-focus-shadow-rgb: #F7CCAC;
+}
+
+body{
+    font-family: 'Dosis', "sans-serif";
+    background-color: var(--bs-body-bg);
+}
+
+.card{
+    background-color: var(--bs-success-bg) !important;
+}
+.flex-fill {
+    flex: 1 1 auto!important;
+}
+.profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #94B49F;
+}
+.btn-secondary:focus {
+    background-color: #F38BA0;
+    border-color: #F38BA0;
+    --bs-btn-focus-shadow-rgb :var(--bs-btn-focus-shadow-rgb);
+}
+.post_comment{
+    background-color: var(--bs-success-bg);
+}
+.bg-forum{
+    background-color: var(--bs-gray-dark);
+}
+.msg{
+    color: #F7CCAC;
+}
+.modal-comments{
+    background-color: var(--bs-success-bg);
+}
+
+.modal-header{
+    border-bottom: none !important;
+}
+.modal-footer{
+    border-top: none !important;
+}
+.img-thumbnail{
+    border: 1px solid #FFF6EA !important;
+    background-color: #FFF6EA !important;
+}
+.btn-warning {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #FFF6EA !important;
+    --bs-btn-border-color: #FFF6EA !important;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #F7CCAC !important;
+    --bs-btn-hover-border-color: #F7CCAC !important;
+    --bs-btn-focus-shadow-rgb: 217,164,6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #FFF6EA !important;
+    --bs-btn-active-border-color: #FFF6E4 !important;
+}
+.labelTitle{
+    color: #F7CCAC;
+}
+
+.btn-outline-warning{
+    --bs-btn-color: #FFF6EA;
+    --bs-btn-border-color: #FFF6EA;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #FFF6EA;
+    --bs-btn-hover-border-color: #FFF6EA;
+    --bs-btn-focus-shadow-rgb: 255,193,7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #FFF6EA;
+    --bs-btn-active-border-color: #FFF6EA;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #FFF6EA;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}
+.btn-link {
+    --bs-btn-color: #3A3845;
+    --bs-btn-hover-color: #94B49F;
+    --bs-btn-active-color: #94B49F;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-border-color: transparent;
+}
+.btn-floating{
+    border-radius: 50%;
+    padding: 0;
+}
+.btn-outline-light {
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: #F4006D;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-focus-shadow-rgb: transparent
+    --bs-btn-active-color: #F4006D;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-active-shadow: #F4006D;
+    --bs-btn-disabled-color: transparent;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}

@@ -1,0 +1,88 @@
+/*Classe Header*/
+.header{
+    background-color: #3A3845;
+    color: #789395;
+    position: sticky;   
+    top: 0px;
+    font-size: 17px;
+}
+
+/*Balises a*/
+a{
+    text-decoration: none;
+    color: #789395;
+}
+a:hover{
+    color: #5f7d80;
+}
+
+/*Balises body*/
+body{
+    background-color: #3A3845;
+}
+/*Footer*/
+.footer{
+    background-color: #F7CCAC;
+}
+
+/*Rectangles verts avec écritures foncée et coins arrondis*/
+.commoncontainer{
+    background-color: #789395;
+    color: #3A3845;
+    border-radius: 40px;
+}
+
+.insidecontainer{
+    background-color: #3A3845;
+    color: #789395;
+    border-radius: 20px;
+}
+
+/*Boutons formulaires customisés*/
+.formsbtns{
+    border-radius: 15px;
+    background-color: #3A3845;
+    color: #F7CCAC;
+    border: none;
+}
+
+.formsdate {
+    border-radius: 15px;
+    background-color: #3A3845;
+    color: #789395;
+    border: none;
+}
+
+.formsselect {
+    border-radius: 15px;
+    background-color: #3A3845;
+    color: #789395;
+    border: none;
+}
+
+.formsbtns:hover{
+    background-color: #4c4a57;
+}
+
+/*Changement couleur placeholders*/
+::placeholder {
+    color: #789395;
+}
+
+/*margin bas de 20%*/
+.mb-20{
+    margin-bottom: 20%;
+}
+
+/*margin gauche de 50%*/
+.ms-50{
+    margin-left: 50%;
+}
+
+#imageDosV{
+    position: relative;
+}
+
+.errors{
+    color: #F7CCAC !important;
+}

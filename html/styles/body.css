@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+body{
+    font-family: 'Dosis', "sans-serif";
+    background-color: #3A3845;
+}
+
+footer{
+    background-color: #F7CCAC;
+    color: #3A3845;
+}
+/* ================================BODY LIGHT MODE COLOR CONTENT=================================*/
+body.light .btn-link:hover{
+    color: #94B49F;
+}
+body.light .btn-link{
+    color: #3A3845;
+    background-color: #F7CCAC !important;
+}
+body.light .btn-outline-secondary{
+    background-color: #94B49F;
+    border-color: #94B49F;
+}
+body.light .btn-outline-dark{
+    background-color: #94B49F;
+    border-color: #94B49F;
+}
+body.light .dash-block{
+    background-color: #94B49F !important;
+    transition: all 0.7s ease-in-out;
+}
+body.light .statsBlock{
+    background-color: #94B49F !important;
+    transition: all 0.7s ease-in-out;
+}
+body.light .block1{
+    background-color: #94B49F !important;
+    transition: all 0.7s ease-in-out;
+}
+body.light{
+    background-color: #FFF6EA !important;
+    transition: all 0.7s ease-in-out;
+}
+body.light .blockquote-footer{
+    color :#3A3845 !important;
+    transition: all 0.7s ease-in-out;
+}
+body.light .title{
+    color: #3A3845 !important;
+    transition: all 0.7s ease-in-out;
+}
+body.light .offcanvas{
+    background-color: #94B49F;
+}
+body.light .bg-edit{
+    background-color: #94B49F;
+}
+body.light .title_rqst{
+    color: #3A3845;
+}
+body.light .pr_usr_request{
+    color: #3A3845;
+}
+body.light .border-bottom {
+    border-bottom: 1px solid #3A3845 !important;
+}
+body.light td{
+    color: #3A3845;
+}
+body.light th{
+    color: #3A3845;
+}
+td, th{
+    color:#F7CCAC;
+}
+/* =================================================================*/
+
+/*SEARCH-BAR*/
+
+input.form-control.mr-sm-2{
+    border-radius: 2rem !important;
+    background-color: #3A3845;
+    color: #F7CCAC;
+}
+.form-control{
+    border:1px solid #3A3845;
+}
+.form-control::placeholder{
+    color: #F7CCAC;
+}
+.edit-form::placeholder{
+    color:#3A3845;
+}
+.edit-form{
+    border:1px solid #F7CCAC !important;
+}
+/* =================================================================*/
+/*NAV LINK */
+.nav-link{
+    color:#789395;
+}
+.navContent{
+    background-color: #F7CCAC;
+}
+
+/* =================================================================*/
+/*BTN TOP*/
+.pushbtn{
+    width:70px;
+    height:70px;
+}
+.goTop{
+    position:fixed;
+    margin-right: 100px;
+}
+/* =================================================================*/
+
+
+/*PROFILE IMG & USERNAME*/
+.img-size{
+    height: 70px;
+    width: 70px;
+}
+img.rounded-circle.img-size{
+    border:1px solid !important;
+    color: #94B49F;
+}
+.username{
+    color: #789395;
+}
+
+/* =================================================================*/
+
+/*CAROUSEL BTN*/
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background-color: #789395;
+}
+/*CAROUSEL INNER*/
+.carousel-inner{
+    border-radius:120px;
+}
+/* =================================================================*/
+
+/*BLOCK TRACK*/
+.block {
+    border-radius: 20% !important;
+    width: 200px;
+    height: 200px;
+}
+
+.pulse{
+    width: 160px;
+    height: 160px;
+}
+.title{
+    color: #F7CCAC;
+}
+.blockquote-footer{
+    color: #F7CCAC;
+}
+.blockquote-footer::before {
+    content:"" !important;
+}
+/* ============================MEDIA QUERY=====================================*/
+@media all and (max-width: 770px){
+    .trackBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .pulse{
+        margin: 1rem;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+    }
+    .carousel-indicators {
+        margin-bottom: 0 !important;
+    }
+}
+
+/* USERS */
+
+.userBlock {
+
+    background-color: #789395;
+    border-radius: 15px;
+    
+}
+
+.userLink {
+    text-decoration: none;
+    color:#3A3845;
+}
+
+.userLink:hover {
+    color:#F7CCAC;
+}
+
+/* album */
+
+.albumDisplay {
+
+    background-color: #789395;
+    border-radius: 15px;
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5b622ea2-ef91-4ed7-a2fb-47e21a815f77" name="utrack" url="http://utrack.website">
+        <fileTransfer rootFolder="/home/debian" accessType="SFTP" host="51.254.120.236" port="56189" sshConfigId="a10cfb8d-ab4b-457c-8c7e-74c470ef171b" sshConfig="debian@51.254.120.236:56189 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

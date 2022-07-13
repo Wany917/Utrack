@@ -1,0 +1,12 @@
+/* Modal Captcha */
+.captcha {
+    background-color: #789395;
+}
+
+
+/* Carré Captcha */
+.captchaSquare {
+    background-color: #FFF6EA;
+    border: 1px solid #3A3845;
+    height: 100px;
+}
