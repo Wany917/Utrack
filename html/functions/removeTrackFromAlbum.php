@@ -1,36 +1,3 @@
-<?php
-
-require 'functions.php';
-
-if(!isConnected()){
-    header("Location: ../index.php");
-}else{
-
-$track = $_GET['track'];
-$artist = $_GET['artist'];
-$album = $_GET['album'];
-
-if(getUserId() == $artist){
-
-$confirm = [];
-$errors = [];
-
-$pdo = connectDB();
-
-$queryPrepared = $pdo->prepare("UPDATE utrackpa_tracks SET album = null WHERE id =:id");
-$queryPrepared->execute(['id' => $track]);
-
-addToLogs(getUserId(),"Removed : ".getTrackNameByTrackId($track)." from : ".getAlbumNameById($album)."");
-
-$confirm[] = "Track has been removed";
-$_SESSION['confirm'] = $confirm;
-header("Location: ../templates/Home/album.php?album=$album&artist=$artist");
-
-}else{
-
-$errors[] = "You are not the artist";
-$_SESSION['errors'] = $errors;
-header("Location: ../templates/Home/album.php?album=$album&artist=$artist");
-
-}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99554ccf7b64a0a6249e33e3f2524ed5c40e463c515865421467c3e7ae3af3ba
+size 805

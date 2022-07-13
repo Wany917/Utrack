@@ -1,11 +1,3 @@
-<?php
-
-require 'functions.php';
-
-addToLogs(getUserId(),"Signed out");
-
-	unset($_SESSION['email']);
-	unset($_SESSION['token']);
-	unset($_SESSION['id']);
-
-	header("Location: ../index.php");
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c65092ca4b5949b8cdbbb8f43bfc5d2e911579e1c8514fe8ded4bfdf533930a
+size 188

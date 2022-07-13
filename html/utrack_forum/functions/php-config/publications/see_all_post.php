@@ -1,10 +1,3 @@
-<?php
-$pdo = connectDB();
-$getAllPosts = $pdo->query('SELECT id, id_usr, author, title, category, sub_category, content, dateOfRelease FROM utrackpa_forum ORDER BY dateOfRelease DESC');
-
-
-if(isset($_GET['search']) && !empty($_GET['search'])){
-    $search = $_GET['search'];
-
-    $getAllPosts = $pdo->query('SELECT * FROM utrackpa_forum WHERE title LIKE "%'.$search.'%" ORDER BY dateOfRelease DESC');
-}£
+version https://git-lfs.github.com/spec/v1
+oid sha256:16fafc5b9160f84ac586f1f06530d99dce96eeea3d25d210d23b18036b1c4bd5
+size 403

@@ -1,24 +1,3 @@
-<?php
-
-    require 'functions.php';
-
-    if(isConnected()){
-    $emailid = getUserId();
-
-	$pdo = connectDB();
-    $queryPrepared = $pdo->prepare("INSERT INTO utrackpa_newsletter(emailid) VALUES (:emailid);");
-    $queryPrepared->execute(
-        [
-        "emailid" => $emailid,
-        ]
-    );
-
-    addToLogs(getUserId(),"Subscribed to newsletter");
-
-        header("Location: ../templates/Home/dash-board.php");
-    } else {
-        header("Location: ../index.php");
-    }   
-
-
-?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bab1332e4d549f1514ac18a9bc54d6d2b112ad3d0c50dd7366b740be9aa2ee7
+size 483
